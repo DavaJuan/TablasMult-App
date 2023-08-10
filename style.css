@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+#text {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+#text span {
+  color: #eacb22;
+  font-weight: bold;
+}
+
+input {
+  outline: none;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 0.4rem;
+  margin-right: 5px;
+  color: #fff;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+}
+
+#inpuntConteiner {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tablaMultiplicar {
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+}
